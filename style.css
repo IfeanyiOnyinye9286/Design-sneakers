@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+nav
+{
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+label.logo{
+    color: black;
+    font-size: 37px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 50px;
+}
+nav ul li a {
+    color: gray;
+
+}
+hr{
+    margin: 0 70px;
+    
+}
+.contanier
+{
+    display: flex;
+    margin-left: 10px;
+}
+.box {
+    height: 50%;
+    width: 50%;
+    margin: 0;
+    padding: 50px 0 10px 100px;
+}
+.box img{
+    width: 500px;
+    height: 350px;
+    border-radius: 30px;
+}
+.box-2
+{
+margin: 10px 30px;
+display: flex;
+}
+.box-2 img
+ {
+    width: 100px;
+    height: 100px;
+    border-radius:20px;
+    padding: 0 5px;
+    margin: 0 5px;
+}
+#word{
+    font-size: small;
+    margin-top: 90px;
+    margin-left: 10px;
+}   
+#word h2{
+    font-size: 13px;
+    color: orange;
+   
+}
+#word h3{
+  font-size: 25px;
+  width: 600px;  
+}
+.number p{
+    color: black;
+    font-size:20px ;
+    font-weight: 600;
+}
+span{
+    color:orange ;
+    font-size: 14px;
+    background-color: rgb(220, 214, 214);
+    border-radius: 5px;
+    padding: 3px;
+}
